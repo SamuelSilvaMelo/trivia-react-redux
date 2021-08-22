@@ -1,0 +1,41 @@
+.settings-img {
+  background-color: white;
+  border: 10px solid rgb(77, 17, 108);
+  border-radius: 10px;
+  box-shadow: 0 0 5em white;
+  margin-top: 40px;
+  width: 200px;
+}
+
+.settings-text {
+  color: rgb(77, 17, 108);
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.setting-options {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.setting-options label {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.setting-options label select {
+  padding: 5px;
+  width: 300px;
+}
+
+.setting-options label input {
+  padding: 5px;
+  width: 300px;
+}
+
+.setting-options button {
+  padding: 10px;
+}

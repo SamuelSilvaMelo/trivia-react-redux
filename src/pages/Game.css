@@ -1,0 +1,59 @@
+.game-content {
+  background: #3f1355c9;
+  border: 5px solid rgb(192, 48, 197);
+  border-radius: 12px;
+  box-shadow: 0 0 1em rgb(108, 77, 124);
+  color: white;
+  max-width: 450px;
+  padding: 28px;
+  width: 90%;
+}
+
+.game-user-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.game-user-header-user {
+  align-items: center;
+  display: flex;
+}
+
+.game-user-header-avatar {
+  border: 2px solid rgb(252, 200, 29);
+  box-shadow: 0 0 2px rgb(255, 231, 123);
+  height: 50px;
+  width: 50px;
+}
+
+.game-user-header-name {
+  background: #392741;
+  border: 2px solid rgb(252, 200, 29);
+  border-bottom-right-radius: 6px;
+  border-left: 0;
+  border-top-right-radius: 6px;
+  box-shadow: 0 0 2px rgb(255, 231, 123);
+  font-weight: 700;
+  margin-left: 1px;
+  padding: 6px 12px;
+  text-shadow: -1px 0 black , 0 1px black , 1px 0 black , 0 -1px black;
+}
+
+.game-user-header-score {
+  background: #392741;
+  border: 2px solid rgb(252, 200, 29);
+  border-radius: 6px;
+  box-shadow: 0 0 2px rgb(255, 231, 123);
+  font-weight: 700;
+  padding: 6px 12px;
+  text-shadow: -1px 0 black , 0 1px black , 1px 0 black , 0 -1px black;
+  transition: all 120ms linear;
+}
+
+.game-user-header-score.success {
+  background: #284127;
+  border-color: rgb(59, 255, 19);
+  box-shadow: 0 0 2px rgb(123, 255, 141);
+}
