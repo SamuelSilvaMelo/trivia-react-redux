@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import getTokenApi from '../services/getTokenApi';
-import { getUserData } from '../actions';
-import '../Login.css';
+import { getUserData } from '../redux/actions';
+import '../styles/components/Login.css';
 
 class Login extends React.Component {
   constructor() {

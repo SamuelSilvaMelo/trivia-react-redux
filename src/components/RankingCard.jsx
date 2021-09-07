@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Avatar from './Avatar';
-import './RankingCard.css';
+import '../styles/components/RankingCard.css';
 
 class RankingCard extends React.Component {
   render() {

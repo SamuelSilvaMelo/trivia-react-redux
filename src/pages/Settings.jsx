@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SettingOptions from '../components/SettingOptions';
-import './Settings.css';
+import '../styles/pages/Settings.css';
 
 class Settings extends React.Component {
   render() {
