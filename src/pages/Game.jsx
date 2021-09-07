@@ -4,8 +4,8 @@ import { connect } from 'react-redux';
 import Question from '../components/Question';
 import { requestApiQuestions } from '../redux/actions';
 import UserAvatar from '../components/UserAvatar';
-import { cx } from '../utils';
-import './Game.css';
+import { cx } from '../helper/utils';
+import '../styles/pages/Game.css';
 
 class Game extends React.Component {
   constructor(props) {

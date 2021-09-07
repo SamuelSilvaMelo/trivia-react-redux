@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { restartGame } from '../redux/actions';
 import RankingCard from '../components/RankingCard';
-import './Ranking.css';
+import '../styles/pages/Ranking.css';
 
 class Ranking extends React.Component {
   constructor(props) {

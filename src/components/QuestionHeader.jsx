@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Countdown from './Countdown';
-import { decodeHtml } from '../utils';
+import { decodeHtml } from '../helper/utils';
 
 class QuestionHeader extends React.Component {
   render() {

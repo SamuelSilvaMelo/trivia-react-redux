@@ -1,5 +1,5 @@
 import md5 from 'crypto-js/md5';
-import shuffleArray from '../../services/shuffleArray';
+import shuffleArray from '../../helper/shuffleArray';
 
 export const USER_DATA = 'USER_DATA';
 export const SELECT_API_OPTIONS = 'SELECT_API_OPTIONS';

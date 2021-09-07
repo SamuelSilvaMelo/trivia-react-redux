@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import getTokenApi from '../services/getTokenApi';
 import { getUserData } from '../redux/actions';
-import '../Login.css';
+import '../styles/components/Login.css';
 
 class Login extends React.Component {
   constructor() {
