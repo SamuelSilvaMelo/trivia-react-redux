@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { categories, difficultyLevels, questionsTypes } from '../services/apiSettings';
-import { selectAPIOptions } from '../actions';
+import { selectAPIOptions } from '../redux/actions';
 
 class SettingOptions extends React.Component {
   constructor() {

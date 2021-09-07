@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { showNextBtn } from '../actions';
+import { showNextBtn } from '../redux/actions';
 import { decodeHtml } from '../utils';
 
 class MultipleChoice extends React.Component {

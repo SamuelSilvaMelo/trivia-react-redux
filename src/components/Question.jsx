@@ -6,7 +6,7 @@ import {
   resetCountdown,
   tickCountdown,
   showNextBtn,
-} from '../actions';
+} from '../redux/actions';
 import QuestionHeader from './QuestionHeader';
 import BooleanQuestion from './BooleanQuestion';
 import MultipleChoice from './MultipleChoice';
