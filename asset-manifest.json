@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/trivia-react-redux/static/css/main.46bcb915.chunk.css",
-    "main.js": "/trivia-react-redux/static/js/main.9f8047b3.chunk.js",
-    "main.js.map": "/trivia-react-redux/static/js/main.9f8047b3.chunk.js.map",
+    "main.js": "/trivia-react-redux/static/js/main.553e2018.chunk.js",
+    "main.js.map": "/trivia-react-redux/static/js/main.553e2018.chunk.js.map",
     "runtime-main.js": "/trivia-react-redux/static/js/runtime-main.460e2238.js",
     "runtime-main.js.map": "/trivia-react-redux/static/js/runtime-main.460e2238.js.map",
-    "static/js/2.89e2c86e.chunk.js": "/trivia-react-redux/static/js/2.89e2c86e.chunk.js",
-    "static/js/2.89e2c86e.chunk.js.map": "/trivia-react-redux/static/js/2.89e2c86e.chunk.js.map",
+    "static/js/2.677eaa49.chunk.js": "/trivia-react-redux/static/js/2.677eaa49.chunk.js",
+    "static/js/2.677eaa49.chunk.js.map": "/trivia-react-redux/static/js/2.677eaa49.chunk.js.map",
     "index.html": "/trivia-react-redux/index.html",
-    "precache-manifest.a8d2ae4f25b0b9ea2f233a47b5620075.js": "/trivia-react-redux/precache-manifest.a8d2ae4f25b0b9ea2f233a47b5620075.js",
+    "precache-manifest.c0111c2ccae23a6b9259cea3365211f2.js": "/trivia-react-redux/precache-manifest.c0111c2ccae23a6b9259cea3365211f2.js",
     "service-worker.js": "/trivia-react-redux/service-worker.js",
     "static/css/main.46bcb915.chunk.css.map": "/trivia-react-redux/static/css/main.46bcb915.chunk.css.map",
-    "static/js/2.89e2c86e.chunk.js.LICENSE": "/trivia-react-redux/static/js/2.89e2c86e.chunk.js.LICENSE"
+    "static/js/2.677eaa49.chunk.js.LICENSE": "/trivia-react-redux/static/js/2.677eaa49.chunk.js.LICENSE",
+    "static/media/aang.png": "/trivia-react-redux/static/media/aang.e54bb195.png",
+    "static/media/logo.png": "/trivia-react-redux/static/media/logo.1044b039.png"
   },
   "entrypoints": [
     "static/js/runtime-main.460e2238.js",
-    "static/js/2.89e2c86e.chunk.js",
+    "static/js/2.677eaa49.chunk.js",
     "static/css/main.46bcb915.chunk.css",
-    "static/js/main.9f8047b3.chunk.js"
+    "static/js/main.553e2018.chunk.js"
   ]
 }
