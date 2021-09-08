@@ -35,11 +35,13 @@ class Ranking extends React.Component {
     const ranking = JSON.parse(localStorage.getItem('ranking'));
     return (
       <>
-        <img
-          className="all-pages-logo"
-          src={ triviaLogo }
-          alt="logo trivia"
-        />
+        <a href="/trivia-react-redux/">
+          <img
+            className="all-pages-logo"
+            src={ triviaLogo }
+            alt="logo trivia"
+          />
+        </a>
         <header>
           <h1 className="pretty-title" data-testid="ranking-title">
             Ranking

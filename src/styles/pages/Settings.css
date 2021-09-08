@@ -39,3 +39,20 @@
 .setting-options button {
   padding: 10px;
 }
+
+.setting-options .pretty-button {
+  width: 70%;
+}
+
+@media only screen and (max-width: 680px) {
+
+  .setting-options div {
+    align-self: center;
+  }
+
+  .setting-options label {
+    align-items: flex-start;
+    flex-direction: column;
+    width: min-content;
+  }
+}

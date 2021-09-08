@@ -10,7 +10,13 @@ class Settings extends React.Component {
     return (
       <>
         <header>
-          <img className="all-pages-logo" src={ triviaLogo } alt="logo trivia" />
+          <a href="/trivia-react-redux/">
+            <img
+              className="all-pages-logo"
+              src={ triviaLogo }
+              alt="logo trivia"
+            />
+          </a>
           <h1 className="pretty-title" data-testid="settings-title">Settings</h1>
         </header>
         <main className="setting-options">

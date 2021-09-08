@@ -21,11 +21,13 @@ class Feedback extends React.Component {
     const { userName, gravatarImage } = this.props;
     return (
       <>
-        <img
-          className="all-pages-logo"
-          src={ triviaLogo }
-          alt="logo trivia"
-        />
+        <a href="/trivia-react-redux/">
+          <img
+            className="all-pages-logo"
+            src={ triviaLogo }
+            alt="logo trivia"
+          />
+        </a>
 
         <RankingCard
           userName={ userName }
