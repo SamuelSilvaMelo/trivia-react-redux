@@ -6,7 +6,10 @@
 }
 
 .login-logo {
-  height: 500px;
+  max-height: 500px;
+  max-width: 700px;
+  width: 100%;
+  height: auto;
 }
 
 @media ( prefers-reduced-motion : no-preference ) {
