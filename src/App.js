@@ -12,24 +12,24 @@ export default function App() {
     <div className="App">
       <Switch>
         <Route
-          path="/trivia-react-redux/feedback"
+          path="/feedback"
           render={ () => <Feedback /> }
         />
         <Route
-          path="/trivia-react-redux/settings"
+          path="/settings"
           render={ (props) => <Settings { ...props } /> }
         />
         <Route
-          path="/trivia-react-redux/ranking"
+          path="/ranking"
           render={ () => <Ranking /> }
         />
         <Route
-          path="/trivia-react-redux/game"
+          path="/game"
           render={ (props) => <Game { ...props } /> }
         />
         <Route
           exact
-          path="/trivia-react-redux/"
+          path="/"
           render={ (props) => <Login { ...props } /> }
         />
       </Switch>

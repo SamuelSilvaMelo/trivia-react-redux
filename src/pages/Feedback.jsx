@@ -42,11 +42,11 @@ class Feedback extends React.Component {
           <Link
             className="pretty-button"
             data-testid="btn-ranking"
-            to="/trivia-react-redux/ranking"
+            to="/ranking"
           >
             Ranking
           </Link>
-          <Link to="/trivia-react-redux/">
+          <Link to="/">
             <button
               className="pretty-button"
               type="button"

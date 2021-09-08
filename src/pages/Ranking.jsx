@@ -68,7 +68,7 @@ class Ranking extends React.Component {
           <Link
             className="pretty-button"
             data-testid="btn-go-home"
-            to="/trivia-react-redux/"
+            to="/"
             onClick={ () => playAgain() }
           >
             Home
