@@ -6,6 +6,7 @@ import { requestApiQuestions } from '../redux/actions';
 import UserAvatar from '../components/UserAvatar';
 import { cx } from '../helper/utils';
 import '../styles/pages/Game.css';
+import triviaLogo from '../img/logo.png';
 
 class Game extends React.Component {
   constructor(props) {
@@ -42,7 +43,7 @@ class Game extends React.Component {
       <>
         <img
           className="all-pages-logo"
-          src="assets/logo.png"
+          src={ triviaLogo }
           alt="logo trivia"
         />
         <div className="game-content">

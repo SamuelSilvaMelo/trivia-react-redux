@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { restartGame } from '../redux/actions';
 import RankingCard from '../components/RankingCard';
 import '../styles/pages/Ranking.css';
+import triviaLogo from '../img/logo.png';
 
 class Ranking extends React.Component {
   constructor(props) {
@@ -36,7 +37,7 @@ class Ranking extends React.Component {
       <>
         <img
           className="all-pages-logo"
-          src="assets/logo.png"
+          src={ triviaLogo }
           alt="logo trivia"
         />
         <header>
@@ -65,7 +66,7 @@ class Ranking extends React.Component {
           <Link
             className="pretty-button"
             data-testid="btn-go-home"
-            to="/"
+            to="/trivia-react-redux/"
             onClick={ () => playAgain() }
           >
             Home

@@ -35,7 +35,7 @@ class SettingOptions extends React.Component {
     } = this.state;
 
     dispatch(selectAPIOptions(numberOfQuestions, category, difficulty, questionType));
-    push('/');
+    push('/trivia-react-redux/');
   }
 
   render() {

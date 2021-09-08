@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import '../styles/pages/Feedback.css';
 import RankingCard from '../components/RankingCard';
+import triviaLogo from '../img/logo.png';
 
 class Feedback extends React.Component {
   feedbackMessage() {
@@ -22,7 +23,7 @@ class Feedback extends React.Component {
       <>
         <img
           className="all-pages-logo"
-          src="assets/logo.png"
+          src={ triviaLogo }
           alt="logo trivia"
         />
 
@@ -39,11 +40,11 @@ class Feedback extends React.Component {
           <Link
             className="pretty-button"
             data-testid="btn-ranking"
-            to="/ranking"
+            to="/trivia-react-redux/ranking"
           >
             Ranking
           </Link>
-          <Link to="/">
+          <Link to="/trivia-react-redux/">
             <button
               className="pretty-button"
               type="button"
