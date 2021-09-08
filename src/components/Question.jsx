@@ -107,7 +107,7 @@ class Question extends React.Component {
               className={ showBtn ? 'pretty-button show-btn' : 'hide-btn' }
               onClick={ () => {
                 if (currentQuestion === maxQuestions) {
-                  push('/feedback');
+                  push('/trivia-react-redux/feedback');
                 } else {
                   this.startCounter();
                   nextQuestion();

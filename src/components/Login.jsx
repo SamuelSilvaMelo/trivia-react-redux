@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import getTokenApi from '../services/getTokenApi';
 import { getUserData } from '../redux/actions';
 import '../styles/components/Login.css';
+import triviaLogo from '../img/logo.png';
 
 class Login extends React.Component {
   constructor() {
@@ -53,13 +54,13 @@ class Login extends React.Component {
     localStorage.setItem('token', token);
     sendUserData(userName, email, token);
     const { history: { push } } = this.props;
-    push('/game');
+    push('/trivia-react-redux/game');
   }
 
   headerImg() {
     return (
       <img
-        src="assets/logo.png"
+        src={ triviaLogo }
         className="login-logo"
         alt="logo trivia star"
       />
@@ -113,7 +114,7 @@ class Login extends React.Component {
         <Link
           className="login-footer-link"
           data-testid="btn-settings"
-          to="/settings"
+          to="/trivia-react-redux/settings"
         >
           SETTINGS
         </Link>
