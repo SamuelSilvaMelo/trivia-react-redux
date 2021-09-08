@@ -54,7 +54,7 @@ class Login extends React.Component {
     localStorage.setItem('token', token);
     sendUserData(userName, email, token);
     const { history: { push } } = this.props;
-    push('/trivia-react-redux/game');
+    push('/game');
   }
 
   headerImg() {
@@ -114,7 +114,7 @@ class Login extends React.Component {
         <Link
           className="login-footer-link"
           data-testid="btn-settings"
-          to="/trivia-react-redux/settings"
+          to="/settings"
         >
           SETTINGS
         </Link>
